@@ -65,7 +65,7 @@
 
 - (NSString *)description;
 {
-    return [NSString stringWithFormat:@"%@ (%d, %d): %@", super.description, self.location.row, self.location.column, self.content];
+    return [NSString stringWithFormat:@"%@", self.content];
 }
 
 @end
